@@ -1,9 +1,9 @@
 /*
- * @Name: 
+ * @Name: interface进阶
  * @Author: smj
  * @Date: 2022-11-14 18:10:04
  * @LastEditors: smj
- * @LastEditTime: 2022-11-15 10:32:59
+ * @LastEditTime: 2022-11-15 11:21:10
  * @FilePath: \ts-practice\handhook\interface-mix.ts
  */
 
