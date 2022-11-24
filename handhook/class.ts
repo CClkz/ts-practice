@@ -29,3 +29,5 @@ employee = animal // private name来自不同声明
 
 // peotected
 
+export {}
+
