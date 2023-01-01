@@ -5,6 +5,9 @@
  */
 let x = [1, 2, ""];
 
+type yuanArr = [string, number];
+let yuan1: yuanArr = ["1", 1];
+
 /**
  * 上下文推断
  */
@@ -42,4 +45,4 @@ banana = new Animal("dog", 7);
 let dog = new Animal("dog", 7);
 banana = dog;
 
-export {}
+export {};

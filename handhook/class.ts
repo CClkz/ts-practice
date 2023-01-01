@@ -8,26 +8,32 @@
  */
 class Animal {
   private name: string;
-  constructor(theName: string) { this.name = theName; }
+  constructor(theName: string) {
+    this.name = theName;
+  }
 }
 
 class Rhino extends Animal {
-  constructor() { super("Rhino"); }
+  constructor() {
+    super("Rhino");
+  }
 }
 
 class Employee {
   private name: string;
-  constructor(theName: string) { this.name = theName; }
+  constructor(theName: string) {
+    this.name = theName;
+  }
 }
 
 let animal = new Animal("Goat");
 let rhino = new Rhino();
 let employee = new Employee("Bob");
 
+rhino = animal;
 // private
-employee = animal // private name来自不同声明
+employee = animal; // private name来自不同声明
 
 // peotected
 
-export {}
-
+export {};
